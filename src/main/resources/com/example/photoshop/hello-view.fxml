@@ -123,7 +123,7 @@
       </AnchorPane>
       <Pane layoutX="6.0" layoutY="77.0" prefHeight="361.0" prefWidth="886.0" style="-fx-background-color: grey;">
          <children>
-            <ImageView fx:id="loadedImage_view" fitHeight="310.0" fitWidth="851.0" layoutX="13.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="loadedImage_view" fitHeight="330.0" fitWidth="640.0" layoutX="123.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </Pane>
    </children>
