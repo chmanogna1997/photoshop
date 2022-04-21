@@ -21,12 +21,9 @@ import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
-import javafx.stage.FileChooser;
-import javafx.stage.Stage;
-import javafx.scene.image.Image;
 
-// used interface concept and inheritance concept
-public class Photoshop<Static> implements Initializable  {
+// used interface concept
+public class Photoshop  implements Initializable  {
 
     // using encapsulation concept to hide the data
 
@@ -70,7 +67,7 @@ public class Photoshop<Static> implements Initializable  {
     @FXML
     void radio_details(ActionEvent event) {
 //              Getting camera details
-        new ShowImageDetails(
+        new ShowImageDetailsInterface(
                 image_thumbnails,image_date, image_camera, image_GPS, image_details,  error_label
         ).showdetails();
 
