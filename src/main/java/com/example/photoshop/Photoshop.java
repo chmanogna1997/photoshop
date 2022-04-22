@@ -60,9 +60,8 @@ public class Photoshop  implements Initializable  {
     @FXML
     private RadioButton image_thumbnails;
 
-
     ArrayList<String> format_list = new ArrayList<>(Arrays.asList(".GIF", ".JPG", ".JPEG", ".PNG", ".TIF", ".TIFF"));
-
+    
 
     @FXML
     void radio_details(ActionEvent event) {
@@ -70,7 +69,6 @@ public class Photoshop  implements Initializable  {
         new ShowImageDetailsInterface(
                 image_thumbnails,image_date, image_camera, image_GPS, image_details,  error_label
         ).showdetails();
-
     }
 
     @FXML
